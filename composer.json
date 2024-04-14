@@ -1,0 +1,24 @@
+{
+    "name": "bright/cherryphp",
+    "description": "This is a lightweight framework for rapid web development",
+    "type": "project",
+    "require": {
+        "symfony/routing": "^7.0",
+        "amphp/http-client": "^5.0",
+        "amphp/amp": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bright\\PhpAlianz\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bright-webb",
+            "email": "webilorbright@outlook.com"
+        }
+    ]
+}
